@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"declaration": true,
+		"incremental": true,
+		"module": "es2022",
+		"moduleResolution": "nodenext",
+        "rootDir": "src",
+		"outDir": "dist",
+		"removeComments": true,
+		"strict": true,
+		"target": "es2022"
+	},
+	"include": ["src"]
+}

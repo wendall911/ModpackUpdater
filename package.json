@@ -1,0 +1,24 @@
+{
+  "name": "modpackupdater",
+  "version": "1.0.0",
+  "description": "Update a CurseForge Modpack",
+  "main": "dist/index.js",
+  "bin": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wendall911",
+  "license": "MIT",
+  "dependencies": {
+    "@meza/curseforge-fingerprint": "^1.1.33",
+    "commander": "^11.0.0",
+    "figlet": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.6",
+    "@types/node": "^20.4.2",
+    "typescript": "^5.1.6"
+  }
+}
